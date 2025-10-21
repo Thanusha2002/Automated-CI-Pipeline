@@ -1,0 +1,17 @@
+{
+  "name": "jenkins-ci-demo",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js",
+    "build": "zip -r build/artifact.zip src package.json"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+}
